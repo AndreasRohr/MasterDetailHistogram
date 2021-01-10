@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personen</title>
+    <link rel="stylesheet" href="../person.css">
+</head>
+<body>
+
+<div class="card">
+    <h1>Person List</h1>
+
+    <div class="holder">
+        <button id="plus" autofocus> + </button>
+        <div    id="masterContainer"></div>
+    </div>
+</div>
+
+<div class="card">
+    <h1>Person Detail</h1>
+
+    <div class="holder" id="detailContainer">
+    </div>
+</div>
+
+
+<!--new card for histogram-->
+
+<div class="card">
+    <h1>Histogram</h1>
+
+    <div class="holder" id="histogramContainer">
+        <canvas id="histogram" width="400" height="400"></canvas>
+    </div>
+</div>
+
+<script src="personStarter.js" type="module"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js'></script>
+</body>
+
+</html>
